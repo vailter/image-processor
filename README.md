@@ -1,6 +1,13 @@
-# xice7-imageKit
-## 概述
- xice7-imageKit是基于java语言实现的简单的图片处理工具。
+## image-processor
+2018年10月19日 15时51分47秒
+
+	1. [image-processor](#image-processor)
+		1. [概述](#概述)
+		2. [使用教程](#使用教程)
+		3. [JDK要求](#jdk要求)
+		4. [Version](#version)
+### 概述
+ image-processor是基于java语言实现的简单的图片处理工具。
  使用简单, API采用易用的管道流设计。
  工程很小，且不依赖第三方Jar文件。
  
@@ -18,7 +25,7 @@
 
 集成Base64编码，实现Base64字符串和图片之间互转，方便在做移动端API使用
 
-## 1分钟教程
+### 使用教程
 读取图片(API提供多种形式读取图片,演示使用文件读取)：
 ```java
 File file = new File("test.png");
@@ -35,27 +42,14 @@ kit.cropCircle(); // 剪切圆形图片
 kit.transferTo("result.png"); 
 ```
 
-预览结果
-
-![图片](src/test/resources/cropCircle.png)
-
 Ok，演示结束啦……
 
 怎么样是不是很简单
 
-## JDK要求
+### JDK要求
 jdk 1.6+
-## Tech
-其他效果，参见 http://www.jhlabs.com/ip/filters/ 这个是歪果仁的实现的图片效果
 
 ### Version
-0.0.1
-
- 
-License
-----
-
-MIT
-
+1.0.0
 
 **Free Software, Yeah!**
