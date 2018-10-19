@@ -1,11 +1,8 @@
-## image-processor
-2018年10月19日 15时51分47秒
-
-	1. [image-processor](#image-processor)
-		1. [概述](#概述)
-		2. [使用教程](#使用教程)
-		3. [JDK要求](#jdk要求)
-		4. [Version](#version)
+---
+title: image-processor
+tags: vailter,使用手册
+---
+[toc!]
 ### 概述
  image-processor是基于java语言实现的简单的图片处理工具。
  使用简单, API采用易用的管道流设计。
