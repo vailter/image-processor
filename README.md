@@ -48,5 +48,3 @@ jdk 1.6+
 
 ### Version
 1.0.0
-
-**Free Software, Yeah!**
